@@ -13,6 +13,5 @@ int display(int a, int p){
     for(i=0; i<=p; i++){
         printf("%d ",a);
     }
+    return 0;
 }
-
-
