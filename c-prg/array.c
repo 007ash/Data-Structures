@@ -21,5 +21,6 @@ int main(){
     printf("%d\n", mul(x,y));
     printf("%d\n", div(x,y));
 
+    printf("%d\n", add(x,y)+sub(x,y));
     return 0;
 }
