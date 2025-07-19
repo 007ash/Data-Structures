@@ -1,17 +1,20 @@
-int main(){
-    int a = 5;
-    int i;
-    for(i=0; i<=5; i++){
-        printf("%d\n", a);
-    }
-    display(2,4);
-    return 0;
+int add(int a, int b){
+    return a+b;
 }
 
-int display(int a, int p){
-    int i;
-    for(i=0; i<=p; i++){
-        printf("%d ",a);
-    }
-    return 0;
+int sub(int a, int b){
+    return a-b;
+}
+
+int mul(int a, int b){
+    return a*b;
+}
+
+int div(int a, int b){
+    return a/b;
+}
+
+int main(){
+    int x = 5, y = 10;
+    printf("%d\n",add(x,y));
 }
