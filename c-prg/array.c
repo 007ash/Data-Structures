@@ -17,4 +17,9 @@ int div(int a, int b){
 int main(){
     int x = 5, y = 10;
     printf("%d\n",add(x,y));
+    printf("%d\n",sub(x,y));
+    printf("%d\n", mul(x,y));
+    printf("%d\n", div(x,y));
+
+    return 0;
 }
